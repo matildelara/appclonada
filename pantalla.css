@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.whatsapp-container {
+    max-width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: rgba(17, 96, 87, 0.906);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right img {
+    width: 155px;
+    margin-left: 20px;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(17, 96, 87, 0.906);
+    color: white;
+    padding: 5px 0;
+}
+
+.bottom-menu p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.chat-list {
+    padding: 14px;
+}
+
+.chat {
+    display: flex;
+    padding: 14px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.chat img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-info {
+    flex: 1;
+}
+
+.chat h2 {
+    margin: 0;
+}
+
+.chat p {
+    margin: 0;
+    color: #888;
+}
+.timestamp {
+    text-align: right;
+    margin: 0;
+    color: #888;
+    font-size: 12px;
+}
